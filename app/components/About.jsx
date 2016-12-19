@@ -11,9 +11,16 @@ var React = require('react');
 
 var About = (props) => {
 	return (
-		<div>
-			<h3>About</h3>
-			<p>Welcome to the About page.</p>
+		<div text-centerediv >
+			<h1 className="header text-center">About</h1>
+			<p className="lead text-center">Welcome to the About page.</p>
+			<p>
+				Tools used: 
+			</p>
+			<ul>
+				<li><a href="">React</a> used to build components</li>
+				<li><a href="">Open Weather Map</a> useed for fetching data</li>
+			</ul>
 		</div>
 	)
 };
